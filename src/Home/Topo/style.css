@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.modo-escuro img{
+    width:100px;
+}
+.modo-escuro .logo{
+    width:100px;
+}  
+.modo-claro .logo{
+    width:100px;
+}   
+.botao-clicar img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 5px;
+}
+
+.botao-clicar {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 15px;
+    display: flex; /* Adiciona um contêiner flexível */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px; /* Aumenta a altura do botão */
+    width: 90px; /* Aumenta a largura do botão */
+}
+
+
+.imagem-texto{
+    display:flex;
+}
+
+.bg-black{
+
+    background-color: fff;
+}
+.bg-azul{
+    background-color:#252323;
+}
+
+.modo-claro {
+   
+       
+    justify-content: space-around;
+}
+.modo-escuro{ 
+
+    background-color:#252323;
+    justify-content: space-around;
+}
+.modo-escuro h1{ 
+    color:white;
+    font-weight: bold;
+}
+
+.modo-escuro p{
+    color:white;
+}
+
+.dark-text {
+    color: white;
+    font-weight: bold;
+  }
+
+.light-text{
+    color:black;
+    font-weight: bold;
+}
+
+.cabecalho{
+    justify-content: space-around;
+    display:flex;
+}
